@@ -71,7 +71,7 @@ public class CodeCracker {
         boolean allowRepeats = scanner.nextBoolean();
 
         // Ask for a maximum number of attempts (0 for unlimited attempts)
-        System.out.print("Max attempts (0 for unlimited): ");
+        System.out.print("Max attempts: ");
         int maxAttempts = scanner.nextInt();
 
         // Create the game instance
@@ -88,6 +88,6 @@ public class CodeCracker {
         }
         // Display the correct code if the user fails to guess it
         System.out.println("Game over! The code was: " + game.hiddenCode);
-        scanner.close();
+
     }
 }
